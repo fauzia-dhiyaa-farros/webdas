@@ -1,0 +1,224 @@
+<!-- Nama :   Fauzia Dhiyaa' Farros
+Kelompok  :   Pemrogaman Berbasis Web A11.4322
+NIM       :   A11.2019.11901 -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FORMULIR PPDB JALUR ZONASI TAHUN 2020</title>
+    <h2 style="text-align:center;">FORMULIR PPDB JALUR ZONASI TAHUN 2020</h2>
+    <form action="ppdb.php" method="POST">
+<style>
+body { 
+background-color: #EBECF0;
+}
+table{
+	border-collapse: collapse;
+}
+</style>
+</head>
+<body>
+	<!-- Awal Tabel Formulir -->
+	<table border="1" width="100%">
+		<tr>
+			<td><b>Nomor</b></td>
+			<td colspan="3"><b>INFO PENDAFTARAN</b></td>
+		</tr>
+		<tr>
+			<td>1</td>
+			<td>NISN</td>
+			<td>:
+				<input type="text" name="nisn" placeholder="Masukkan NISN..."/>
+			</td>
+		</tr>
+		<tr>
+			<td>2</td>
+			<td>Asal Sekolah</td>
+			<td>:
+	            <input type="text" name="sekolah" style="width: 90%" placeholder="Masukkan Asal Sekolah..." />
+			</td>
+		</tr>
+		<tr>
+			<td>3</td>
+			<td>Tahun Lulus</td>
+            <td>:
+                <input type="text" name="lulusan" placeholder="Masukkan Tahun Lulus..." />
+                <i>(lampirkan foto copy ijazah)</i>
+            </td>
+		</tr>
+		<tr>
+			<td colspan="11"><b>DATA CALON PESERTA</b></td>
+        </tr>
+        <tr>
+			<td>4</td>
+			<td>Nama Lengkap</td>
+			<td>:
+				<input type="text" name="nama" style="width: 90%" placeholder="Masukkan Nama Lengkap..."/>
+			</td>
+		</tr>
+		<tr>
+			<td>5</td>
+			<td>NIK</td>
+			<td>:
+	            <input type="text" name="nik" placeholder="Masukkan NIK..." />
+			</td>
+		</tr>
+		<tr>
+			<td>6</td>
+			<td>Tempat/Tanggal Lahir</td>
+            <td>:
+            <input type="text" name="ttl" style="width: 35%" placeholder="Masukkan TTL..." />
+            Umur : <input type="text" name="age" placeholder="Masukkan umur Anda..." /> Tahun, <input type="umur" name="thn" placeholder="Masukkan tahun lahir Anda..." /> </td>
+            	
+			</td>
+		</tr>
+        <tr>
+			<td></td>
+			<td>Foto Copy Akte Kelahiran Yang Telah Dilegalisir <i>(Di Lampirkan)</i></td>
+			<td></td>
+		</tr>
+        <tr>
+			<td>7</td>
+			<td>Jenis Kelamin</td>
+			<td>:
+            	<input type="text" name="jk" placeholder="Jenis Kelamin..." />
+			</td>
+        </tr>
+        <tr>
+			<td>8</td>
+			<td>Alamat</td>
+			<td>:
+            	<input type="text" name="add" style="width: 90%" placeholder="Masukkan Alamat Anda..." />
+			</td>
+        </tr>
+        <tr>
+			<td>9</td>
+			<td></td>
+            <td>Desa/Kel. : 
+				<input type="text" name="desa" placeholder="Masukkan nama desa..." />
+			</td>
+        </tr>
+        <tr>
+			<td>10</td>
+			<td></td>
+            <td>Kecamatan :
+            	<input type="text" name="kcm"placeholder="Masukkan kecamatan..." />
+			</td>
+        </tr>
+        <tr>
+			<td>11</td>
+            <td></td>
+            <td>Kabupaten :
+            	<input type="text" name="kab" placeholder="Masukkan kabupaten..." />
+			</td>
+        </tr>
+        <tr>
+			<td>12</td>
+            <td></td>
+            <td>Provinsi :
+            	<input type="text" name="prov" placeholder="Masukkan Provinsi..." />
+			</td>
+        </tr>
+        <tr>
+			<td>13</td>
+			<td>Email Aktif</td>
+			<td>:
+            	<input type="text" name="mail" style="width: 70%" placeholder="Masukkan Email Aktif Anda..." />
+			</td>
+        </tr>
+        <tr>
+			<td colspan="3"><b>DATA ORANG TUA</b> <i>(lampirkan KK)</i></td>
+		</tr>
+		<tr>
+			<td>14</td>
+			<td>Nomor Kartu Keluarga</td>
+			<td>:
+				<input type="text" name="kk" placeholder="Masukkan No KK..."/>
+			</td>
+		</tr>
+		<tr>
+			<td>15</td>
+			<td>Nama Ayah Kandung</td>
+			<td>:
+	            <input type="text" name="ayah" style="width: 90%" placeholder="Masukkan nama ayah..."/>
+			</td>
+		</tr>
+		<tr>
+			<td>16</td>
+			<td>Agama</td>
+            <td>:
+            	<input type="text" name="agama" placeholder="Masukkan agama ayah..." />
+			</td>
+        </tr>
+        <tr>
+			<td>17</td>
+			<td>Pekerjaan</td>
+            <td>:
+            	<input type="text" name="job" placeholder="Masukkan pekerjaan ayah..."/>
+			</td>
+        </tr>
+        <tr>
+			<td>18</td>
+			<td>Nama Ibu Kandung</td>
+            <td>:
+            	<input type="text" name="ibu" style="width: 90%" placeholder="Masukkan nama ibu..."/>
+			</td>
+        </tr>
+        <tr>
+			<td>19</td>
+			<td>Agama</td>
+            <td>:
+            	<input type="text" name="agama" placeholder="Masukkan agama ibu..."/>
+			</td>
+        </tr>
+        <tr>
+			<td>20</td>
+			<td>Pekerjaan</td>
+            <td>:
+            	<input type="text" name="job" placeholder="Masukkan pekerjaan ibu..."/>
+            </td>
+        </tr>
+        <tr>
+			<td>21</td>
+			<td>Alamat Orang Tua</td>
+            <td>:
+            	<input type="text" name="add" style="width: 90%" placeholder="Masukkan alamat ortu..." />
+			</td>
+        </tr>
+        <tr>
+			<td>22</td>
+			<td></td>
+            <td>Desa/Kel. :
+            	<input type="text" name="desa" placeholder="Masukkan nama desa..." />
+			</td>
+        </tr>
+        <tr>
+			<td>23</td>
+			<td></td>
+            <td>Kecamatan :
+            	<input type="text" name="kcm" placeholder="Masukkan kecamatan..." />
+			</td>
+        </tr>
+        <tr>
+			<td>24</td>
+            <td></td>
+            <td>Kabupaten :
+            	<input type="text" name="kab" placeholder="Masukkan kabupaten..." />
+			</td>
+        </tr>
+        <tr>
+			<td>25</td>
+            <td></td>
+            <td>Provinsi :
+            	<input type="text" name="prov" placeholder="Masukkan provinsi..."/>
+			</td>
+        </tr>
+        
+	</table>
+	<!-- Akhir Tabel Formulir -->
+
+<h4>Apakah Anda yakin ingin simpan data permanen?</h4>
+<p style="text-align:left;"><input type="submit" name="submit" value="Simpan Data Permanen" style="text-align:right;"><input type="submit" name="submit" value="Edit Data Kembali" /></p>
+
+</body>
+</html>
