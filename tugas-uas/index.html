@@ -1,0 +1,379 @@
+<!-- 		TUGAS AKHIR UAS
+Anggota		:   
+	# Fauzia Dhiyaa' Farros (A11.2019.11901)
+	# Rhedy Irwan 			(A11.2019.11946) 
+Kelompok	:	Pemrogaman Berbasis Web A11.4322 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>C I N E M U S E !</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.6.2/animate.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">    
+    <link rel="stylesheet" href="css/lightslider.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body style="background-color: #7a7a7a;">
+
+    <header>
+        <nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="https://cinemuse.netlify.app/">C I N E M U S E !</a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#movies">Movies</a></li>
+                        <li><a href="#musics">Musics</a></li>
+                        <li><a href="#books">Books</a></li>
+                        <li><a href="about.html">About</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+
+
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <div class="banner" style="background-image: url(img/slider/enjoy.jpg);"></div>
+                    <div class="carousel-caption">
+                        <h2 class="animated fadeInDown" style="animation-delay: 1s">C I N E M U S E !</h2>
+                        <h3 class="animated fadeInUp" style="animation-delay: 2s">All Your Entertainment Needs</h3>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="banner" style="background-image: url(img/slider/movie.jpg);"></div>
+                    <div class="carousel-caption">
+                        <h2 class="animated fadeInLeft" style="animation-delay: 1s">Movies</h2>
+                        <h3 class="animated fadeInDown" style="animation-delay: 2s">Marathon some movies? Don't miss the preview before watch them !</h3>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="banner" style="background-image: url(img/slider/music.jpg);"></div>
+                    <div class="carousel-caption">
+                        <h2 class="animated zoomIn" style="animation-delay: 1s">Musics</h2>
+                        <h3 class="animated fadeInLeft" style="animation-delay: 2s">Boost up your day with our music picks</h3>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="banner" style="background-image: url(img/slider/book.jpg);"></div>
+                    <div class="carousel-caption">
+                        <h2 class="animated zoomIn" style="animation-delay: 1s">Books</h2>
+                        <h3 class="animated fadeInLeft" style="animation-delay: 2s">Wondering what to read? We'll bring you the list !</h3>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+    </header>
+    <!-- MOVIES -->
+    <div class="container">
+        <div id="movies"class="container-kontent">
+            <div class="row">
+                <div class="col-md-12" data-aos="fade-up">
+                    <h1 class="text-center">Movies and Chill</h1>
+                    <h3 class="text-center">Love movies so much ? We provide bunch of genre to spend all day with your favorite ones </h3>
+                </div>
+                <div class="col-md-12" data-aos="fade-down" >
+                    <!--slider------------------->
+                    <ul id="autoWidth1" class="cs-hidden">
+                        <!--1------------------------------>
+                        <li class="item-a">
+                            <!--slider-box-->
+                            <div class="box">
+                                <p id="genremovies">MOVIE</p>
+                                <!--model-->
+                                <img class="model" src="img/isi34.png">
+                                <!--details-->
+                                <div class="details">
+                                    <!--artikel-->
+                                    <a href="Tilik-Film-Pendek-Satir-Sosial-Sekaligus-Hiburan-Singkat.html"> <p><h3>Tilik : Film Pendek Satir Sosial Ibu-ibu Sekaligus Hiburan Singkat  </h3></p></a>
+                                    <a href="Tilik-Film-Pendek-Satir-Sosial-Sekaligus-Hiburan-Singkat.html"><p>Film pendek ini bercerita tentang rombongan ibu-ibu yang menaiki truk untuk pergi menjenguk Bu Lurah yang sedang...</p></a>
+                                </div>
+                            </div>
+                        </li>
+                        <!--2------------------------------>
+                        <li class="item-a">
+                            <!--slider-box-->
+                            <div class="box">
+                                <p id="genremovies">MOVIE</p>
+                                <!--model-->
+                                <img class="model" src="img/isi29.png">
+                                <!--details-->
+                                <div class="details">
+                                    <!--artikel-->
+                                    <a href="The-Haunting-of-Bly-Manor-Teror-Romansa-Gothic.html"> <p><h3>The Haunting of Bly Manor : Teror Romansa Gothic</h3></p></a>
+                                    <a href="The-Haunting-of-Bly-Manor-Teror-Romansa-Gothic.html"><p>Berlatar 1980-an, serial ini mengangkat kisah horor-family dari sebuah keluarga yang tinggal di Desa Bly. Kejadian aneh dan mengerikan di mulai saat...</p></a>
+                                </div>
+                            </div>
+                        </li>                      
+                        <!--3------------------------------>
+                        <li class="item-a">
+                            <!--slider-box-->
+                            <div class="box">
+                                <p id="genremovies">MOVIE</p>
+                                <!--model-->
+                                <img class="model" src="img/isi1.jpg">
+                                <!--details-->
+                                <div class="details">
+                                    <!--artikel-->
+                                    <a href="Captain-Philips-Perjuangan-yang-Mencekam-dan-Emosional.html"> <p><h3>Captain Philips : Perjuangan yang Mencekam dan Emosional</h3></p></a>
+                                    <a href="Captain-Philips-Perjuangan-yang-Mencekam-dan-Emosional.html"><p>Kapal Kargo MV Maersk Alabama sedang berlayar di lautan luas. Captain Richard Phillips (Tom Hanks) memimpin...</p></a>
+                                </div>
+                            </div>
+                        </li>
+                        <!--4------------------------------>
+                        <li class="item-a">
+                        <!--slider-box-->
+                            <div class="box">
+                                <p id="genremovies">MOVIE</p>
+                                <!--model-->
+                                <img class="model" src="img/isi27.jpg">
+                                <!--details-->
+                                <div class="details">
+                                    <!--logo-character-->
+                                    <a href="Us-Teror-Mengerikan-Dari-Sekelompok-Makhluk-Kembar-Tak-Dikenal.html"> <p><h3>Us : Teror Mengerikan Dari Sekelompok Makhluk Kembar Tak Dikenal</h3></p></a>
+                                    <!--character-details-->
+                                    <a href="Us-Teror-Mengerikan-Dari-Sekelompok-Makhluk-Kembar-Tak-Dikenal.html"><p>Film Us engisahkan tentang sebuah keluarga yang tengah melakukan libuaran ke pantai. Dalam ceritanya...</p></a>
+                                </div>
+                            </div>
+                        </li>  
+                    </ul>   
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- MUSICS -->
+    <div id="musics" class="container">
+        <div class="container-kontent"> 
+            <div class="row">
+                <div class="col-md-4 tengah" data-aos="fade-down">
+                    <h1>Food of soul is musics</h1>
+                    <h3>Feed your soul with ton of musics to find your truly inner peace </h3>
+                </div>
+                <div class="col-md-8 animated" data-aos="fade-up" >
+                    <!--slider------------------->
+                    <ul id="autoWidth2" class="cs-hidden">
+                        <!--1------------------------------>
+                            <li class="item-a">
+                                <!--slider-box-->
+                                    <div class="box">
+                                        <p id="genremusics">MUSIC</p>
+                                        <!--model-->
+                                        <img class="model" src="img/isi21.jpg">
+                                        <!--details-->
+                                        <div class="details">
+                                            <!--logo-character-->
+                                            <a href="Pesan-Khusus-dalam-Kolaborasi-Ariana-Grande-dengan-Justin-juga-Gaga-Kamu-Wajib-Dengar!.html"> <p><h3>Pesan Khusus Kolaborasi Ariana Grande, Justin, Gaga, Kamu Wajib Dengar!</h3></p></a>
+                                            <!--character-details-->
+                                            <a href="Pesan-Khusus-dalam-Kolaborasi-Ariana-Grande-dengan-Justin-juga-Gaga-Kamu-Wajib-Dengar!.html"><p>Lagu ini bermakna tentang seseorang yang akhirnya menemukan tambatan hatinya, dan tidak ingin lagi mencari yang lain apapun yang...</p></a>
+                                        </div>
+                                    </div>
+                            </li>
+                                    <!--2------------------------------>
+                            <li class="item-a">
+                                <!--slider-box-->
+                                    <div class="box">
+                                        <p id="genremusics">MUSIC</p>
+                                        <!--model-->
+                                        <img class="model" src="img/isi12.jpg">
+                                        <!--details-->
+                                        <div class="details">
+                                            <!--logo-character-->
+                                            <a href="Sendunya-Ardhito-Dalam-Soundtrack-Story-of-Kale-When-Someone’s-in-Love.html"> <p><h3>Sendunya Ardhito Dalam Soundtrack Story of Kale: When Someone’s in Love</h3></p></a>
+                                            <!--character-details-->
+                                            <a href="Sendunya-Ardhito-Dalam-Soundtrack-Story-of-Kale-When-Someone’s-in-Love.html"><p>Darah musik sudah melekat dalam dirinya sejak kecil, terbukti baru-baru ini Ardhito merilis lagu 'Sudah' yang nantinya menjadi soundtrack filmnya yang...</p></a>
+                                        </div>
+                                    </div>
+                            </li>
+                                    <!--3------------------------------>
+                            <li class="item-a">
+                                <!--slider-box-->
+                                    <div class="box">
+                                        <p id="genremusics">MUSIC</p>
+                                        <!--model-->
+                                        <img class="model" src="img/isi5.jpg">
+                                        <!--details-->
+                                        <div class="details">
+                                            <!--logo-character-->
+                                            <a href="Mengenal-HONNE,-Duo-Produser-Pop-Soulful-Asal-Inggris.html"> <p><h3>Mengenal HONNE, Duo Produser Pop Soulful Asal Inggris</h3></p></a>
+                                            <!--character-details-->
+                                            <a href="Mengenal-HONNE,-Duo-Produser-Pop-Soulful-Asal-Inggris.html"><p>Sebagai sebuah duo yang digawangi oleh dua produser asal Inggris, James Hatcher dan Andy Clutterbuck bertemu...</p></a>
+                                        </div>
+                                    </div>
+                            </li>
+                                    <!--4------------------------------>
+                            <li class="item-a">
+                                <!--slider-box-->
+                                    <div class="box">
+                                        <p id="genremusics">MUSIC</p>
+                                        <!--model-->
+                                        <img class="model" src="img/isi7.jpg">
+                                        <!--details-->
+                                        <div class="details">
+                                            <!--logo-character-->
+                                            <a href="Mengenal-NIKI-dari-YouTube-hingga-Penyanyi-Internasional.html"> <p><h3>Mengenal NIKI dikenal dari YouTube hingga Penyanyi Internasional</h3></p></a>
+                                            <!--character-details-->
+                                            <a href="Mengenal-NIKI-dari-YouTube-hingga-Penyanyi-Internasional.html"><p>Lagu "Lose" milik NIKI, berkisah tentang perasaan NIKI yang sangat pilu dan sedih karna memikirkan kisah percintaan dengan kekasihnya yang...</p></a>
+                                        </div>
+                                    </div>
+                            </li>
+                    </ul>   
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- BOOKS -->
+    <div id="books" class="container">
+        <div class="container-kontent">
+            <div class="row">
+                <div class="col-md-4 col-md-push-8" data-aos="fade-up">
+                    <h1 class="text-right">Drowning in your imagination</h1>
+                    <h3 class="text-right">Books bring your imagination to the next level tilll you feel drowning in it</h3>
+                </div>
+                <div class="col-md-8 col-md-pull-4" data-aos="fade-down" >
+                    <!--slider------------------->
+                    <ul id="autoWidth3" class="cs-hidden">
+                        <!--1------------------------------>
+                            <li class="item-a">
+                                <!--slider-box-->
+                                    <div class="box">
+                                    <p id="genrebooks">BOOK</p>
+                                    <!--model-->
+                                    <img class="model" src="img/isi16.jpg">
+                                    <!--details-->
+                                    <div class="details">
+                                        <!--logo-character-->
+                                        <a href="Nanti-Kita-Cerita-Tentang-Hari-Ini-Petuah-Ibu-untuk-Sang-Anak.html"> <p><h3>Nanti Kita Cerita Tentang Hari Ini, Petuah Ibu untuk Sang Anak</h3></p></a>
+                                        <!--character-details-->
+                                        <a href="Nanti-Kita-Cerita-Tentang-Hari-Ini-Petuah-Ibu-untuk-Sang-Anak.html"><p>Ia telah menelurkan dua buku, Generasi 90an (2013) dan Generasi 90an: Anak Kemaren Sore (2015). Dua buku itu ibarat mesin waktu yang...</p></a>
+                                    </div>
+                                </div>
+                            </li>
+                                    <!--2------------------------------>
+                            <li class="item-a">
+                                <!--slider-box-->
+                                    <div class="box">
+                                    <p id="genrebooks">BOOK</p>
+                                    <!--model-->
+                                    <img class="model" src="img/isi44.jpg">
+                                    <!--details-->
+                                    <div class="details">
+                                        <!--logo-character-->
+                                        <a href="Ada-Apa-Dengan-Cinta-Lebih-Dari-Sebuah-Film.html"> <p><h3>Ada Apa Dengan Cinta: Buku Yang Menjelaskan Lebih Dari Sebuah Filmnya</h3></p></a>
+                                        <!--character-details-->
+                                        <a href="Ada-Apa-Dengan-Cinta-Lebih-Dari-Sebuah-Film.html"><p>Buku ini diadaptasi dari sebuah film yang berjudul sama. Buku ini mengandung sangat banyak karya sastra, yaitu puisi.Buku ini menceritakan kisah...</p></a>
+                                    </div>
+                                </div>
+                            </li>
+                    </ul>   
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- REVIEWS -->
+    <div data-aos="fade">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="carousel slide" data-ride="carousel" id="quote-carousel">
+                    <!-- Carousel Slides / Quotes -->
+                    <div class="carousel-inner text-center">
+                        <!-- Quote 1 -->
+                        <div class="item active">
+                            <blockquote>
+                                <div class="row">
+                                    <div class="col-sm-8 col-sm-offset-2">
+                                        <p>⭐⭐⭐⭐⭐<br>Suka bgt sama C I N E M U S E !, sebelum nonton film biasanya aku lihat-lihat review dulu, biar g kecewa waktu nonton. Apalagi kalau nonton ditemani telur asin, jadi Yahuuudd !</p>
+                                        <p><b>SYECHUNA</b></p>
+                                    </div>
+                                </div>
+                            </blockquote>
+                        </div>
+                        <!-- Quote 2 -->
+                        <div class="item">
+                            <blockquote>
+                                <div class="row">
+                                    <div class="col-sm-8 col-sm-offset-2">
+                                        <p>⭐⭐⭐⭐⭐<br>Suka mampir ke C I N E M U S E !, kadang penulis buku menyisipkan arti-arti tulisan yang disembunyikan didalam buku mereka dan itu membuatku penasaran pake bgttt ! Berkat C I N E M U S E ! rasa penasaranku hilang setelah lihat reviewnya. Thank You ~</p>
+                                        <p><b>TRISKA</b></p>
+                                    </div>
+                                </div>
+                            </blockquote>
+                        </div>
+                        <!-- Quote 3 -->
+                        <div class="item">
+                            <blockquote>
+                                <div class="row">
+                                    <div class="col-sm-8 col-sm-offset-2">
+                                        <p>⭐⭐⭐⭐⭐<br>Ga ngerti lagi aku sama ini blog, reviewnya mantapppp walaupun lagunya hanya dari US Pop atau Indonesia Pop aja. Review lagu dangdut lah kedepannya hehehehe</p>
+                                        <p><b>DEWA</b></p>
+                                    </div>
+                                </div>
+                            </blockquote>
+                        </div>
+                    </div>
+                    <!-- Bottom Carousel Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#quote-carousel" data-slide-to="0" class="active"><img class="img-responsive " src="img/testi/1.jpg" alt="">
+                        </li>
+                        <li data-target="#quote-carousel" data-slide-to="1"><img class="img-responsive" src="img/testi/3.jpg" alt="">
+                        </li>
+                        <li data-target="#quote-carousel" data-slide-to="2"><img class="img-responsive" src="img/testi/2.jpg" alt="">
+                        </li>
+                    </ol>
+
+                    <!-- Carousel Buttons Next/Prev -->
+                    <a data-slide="prev" href="#quote-carousel" class="left carousel-control"><i class="fa fa-chevron-left"></i></a>
+                    <a data-slide="next" href="#quote-carousel" class="right carousel-control"><i class="fa fa-chevron-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- FOOTERS -->
+    <div class="contaire footer">
+        <div class="row">
+            <div class="col-md-12">
+                <h3>All Right Reserved</h3>
+                <h3>2021</h3>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/JQuery3.3.1.js"></script>
+    <script src="js/lightslider.js"></script>
+    <script src="js/script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+</body>
+</html>
